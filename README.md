@@ -3,7 +3,7 @@
 python3.8 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
-#pour enregistrer les données des vidéos dans input dans output ( lors du lancement une page youtube s'ouvre puis se ferme qui permet d'aller chercher les commentaires)
+#pour enregistrer les données des vidéos de input dans output ( lors du lancement une page youtube s'ouvre puis se ferme qui permet d'aller chercher les commentaires)
 python scrapper.py --input input.json --output output.json
 
 ##TEST
